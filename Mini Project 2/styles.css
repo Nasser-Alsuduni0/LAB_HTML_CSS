@@ -1,0 +1,117 @@
+
+body, h1, h2, p, ul, table, form {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #0033a0;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #0033a0;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #0033a0;
+  padding-bottom: 5px;
+}
+
+.team-logo {
+  max-width: 200px;
+  display: block;
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #0033a0;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input, form textarea, form button {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+form button {
+  background-color: #0033a0;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+form button:hover {
+  background-color: #002080;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #0033a0;
+  color: white;
+  margin-top: 20px;
+}
